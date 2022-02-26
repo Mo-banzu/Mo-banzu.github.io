@@ -1,0 +1,108 @@
+em {
+    color: #1D263B;
+}
+
+.projects {
+    padding-top: 100px;
+    max-width: 1200px;
+}
+
+.project-cards-container {
+    margin-top: 50px;
+    height: fit-content;
+    height: -moz-fit-content;
+}
+
+.card {
+    display: inline-flex;
+    flex-direction: column;
+    color: #1D263B;
+}
+
+.card:not(:last-child) {
+    margin: 0 auto 2em auto;
+}
+
+.card-preview-img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+    padding: 5px;
+    background-color: white;
+}
+
+.card-info {
+    padding: 25px;
+    background-color: #FFFFFF;
+    border-radius: 0 0 10px 10px;
+}
+
+.has-no-preview .card-info {
+    border-radius: 10px;
+}
+
+.title-and-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.project-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #1D263B;
+}
+
+.project-links {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.project-links a i {
+    padding: 5px;
+}
+
+.project-links a i {
+    color: #F08CAE;
+    font-size: 1.2em;
+    transition: all 0.2s ease;
+}
+
+.project-links a i:hover {
+    font-size: 1.25em;
+    padding: 2px 5px;
+    color: #7EB77F;
+}
+
+.project-links a:last-child {
+    margin-left: 5px;
+}
+
+.project-skills {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #7EB77F;
+}
+
+.project-skills span {
+    color: #0FA3B1;
+    font-weight: 700;
+    font-size: 0.9em;
+    letter-spacing: 0.05em;
+}
+
+.project-skills span:not(:last-child) {
+    margin-right: 10px;
+}
+
+.project-description {
+    color: #1D263B;
+}
+
+@media only screen and (min-width: 768px) {
+    .project-cards-container {
+        column-count: 2;
+        column-gap: 2em;
+    }
+}

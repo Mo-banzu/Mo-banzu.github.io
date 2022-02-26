@@ -1,0 +1,165 @@
+.main-container {
+    margin: -100px auto 0 auto;
+}
+
+/* --- LANDING PAGE --- */
+
+#home {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.landing-page-details {
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing-page-socials ul {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.landing-page-socials ul li a i {
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.small-title {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.big-title {
+    margin: 0;
+    text-align: left;
+    font-weight: 700;
+    font-size: 2.75em;
+    letter-spacing: 0;
+}
+
+.my-name {
+    letter-spacing: 0.1em;
+    font-family: 'Fira Code', monospace;
+}
+
+h3 {
+    margin: 5px 0 0 0;
+    text-align: left;
+}
+
+h3 em {
+    color: white;
+    letter-spacing: 0.05em;
+}
+
+h3 a:hover {
+    color: #7EB77F;
+    text-decoration: underline;
+}
+
+.short-bio {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.short-bio p {
+    margin-top: 25px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    letter-spacing: 0.025em;
+}
+
+.cta-container {
+    margin: 0 auto;
+}
+
+.cta {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: fit-content;
+    width: -moz-fit-content;
+    padding: 10px 12px;
+    border-radius: 15px;
+    border: 1px solid #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #1D263B;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.cta img {
+    height: 25px;
+    width: 25px;
+}
+
+.cta span {
+    margin-left: 10px;
+    color: #1D263B;
+    font-weight: 700;
+}
+
+.email-button {
+    border: 1px solid #F08CAE;
+    background-color: #F08CAE;
+}
+
+.cta:hover {
+    border: 1px solid #7EB77F;
+    background-color: #7EB77F;
+    padding: 10px 20px;
+}
+
+.art-me {
+    display: none;
+    height: 350px;
+}
+
+.art-me img {
+    height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .big-title {
+        font-size: 3.5em;
+    }
+    .short-bio {
+        max-width: 90%;
+    }
+    .art-me {
+        display: block;
+    }
+    #home {
+        flex-direction: row;
+    }
+    .landing-page-socials ul {
+        flex-direction: column;
+    }
+    .landing-page-socials ul li a i {
+        margin: 5px 0;
+    }
+    .email-container {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #home {
+        gap: 10%;
+    }
+}

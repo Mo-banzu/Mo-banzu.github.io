@@ -1,0 +1,32 @@
+.photo-grid-container {
+    display: block;
+    margin: 50px auto;
+    column-count: 2;
+    column-gap: 1.4em;
+}
+
+.photo-container {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 1.4em;
+}
+
+.photo-container img {
+    transition: all .5s ease-in-out;
+    backface-visibility: hidden;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .photo-grid-container {
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .photo-grid-container {
+        column-count: 4;
+    }
+}

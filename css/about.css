@@ -1,0 +1,242 @@
+h4, h5 {
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.date {
+    font-style: italic;
+}
+
+/* --- PROFILE --- */
+
+.profile-container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.me-icon-container {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+    text-align: center;
+}
+
+.me-icon {
+    height: 100%;
+    width: 100%;
+}
+
+.terminal-container {
+    max-width: 700px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.terminal-header {
+    padding: 5px 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 10px 10px 0 0;
+    background-color: #7EB77F;
+}
+
+#terminal-title {
+    font-weight: 700;
+    color: #1D263B;
+    letter-spacing: 0.1em;
+}
+
+.right-side-buttons i {
+    color: #1D263B;
+}
+
+.right-side-buttons i:not(:last-child) {
+    margin-right: 10px;
+}
+
+.terminal-window {
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    text-align: left;
+    border: 1px solid #7EB77F;
+}
+
+.terminal-window div, .terminal-window div p {
+    font-family: 'Fira Code', monospace;
+    letter-spacing: 0.02em;
+}
+
+.terminal-window div:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.terminal-window div p {
+    margin-bottom: 0.25em;
+}
+
+.input::before {
+    content: ">\A0";
+    color: #7EB77F;
+    font-weight: 700;
+}
+
+.bottom span {
+    content: "\A0";
+    border-right: 12px solid;
+    animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* --- EDUCATION & EXPERIENCE --- */
+
+.education-experience-container h3 {
+    margin-bottom: 50px;
+}
+
+#experience {
+    margin-top: 50px;
+}
+
+.education-experience-card {
+    margin-top: 25px;
+}
+
+.card-info p {
+    margin-top: 0.35em;
+}
+
+.card-info p a:hover {
+    color: #F08CAE;
+}
+
+.card-description {
+    margin: 15px 0 0 15px;
+}
+
+.card-description p:not(:first-child) {
+    margin-top: 0.35em;
+}
+
+.card-description p::before {
+    content: ">\A0";
+    color: #7EB77F;
+    font-weight: 700;
+}
+
+.card-description h5:not(:first-child) {
+    margin-top: 10px;
+}
+
+/* --- TECH STACK --- */
+
+.tech-stack-container {
+    margin: 50px auto 0 auto;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill {
+    border-radius: 12px;
+    margin: 10px;
+    border: 2px solid #7EB77F;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.skill span {
+    margin-left: 10px;
+}
+
+/* --- ALL SOCIAL MEDIA --- */
+
+.social-media-list {
+    margin: 50px auto 0 auto;
+    width: fit-content;
+    width: -moz-fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.social-media-item {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.social-media-item:hover {
+    color: #F08CAE;
+}
+
+.social-media-item i {
+    margin-right: 15px;
+    font-size: 1.5em;
+}
+
+.social-media-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    #education-experience {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .education-experience-container {
+        width: 48%;
+    }
+    #experience {
+        margin-top: 0;
+    }
+    .section-description {
+        margin: 50px 10% 0 10%;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .profile-container {
+        margin: 50px auto 0 auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+    .terminal-container {
+        flex-grow: 1;
+        margin: 0;
+    }
+    .me-icon-container {
+        width: 300px;
+        height: auto;
+    }
+    .education-experience-card {
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-info {
+        width: 40%;
+    }
+    .card-description {
+        width: 60%;
+        margin-top: 0;
+    }
+    .section-description {
+        margin: 50px auto 0 auto;
+    }
+}
