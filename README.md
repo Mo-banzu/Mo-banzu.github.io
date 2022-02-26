@@ -4,14 +4,9 @@ This is the source code for my personal website - a developer and others.
 
 ## Table of Contents
 
-- [Design](#design)
-- [Fonts](#fonts)
 - [Color Scheme](#color-scheme)
-- [Icon](#icon)
-- [Wireframes](#wireframes)
 - [Built With](#built-with)
 - [Creator / Maintainer](#creator-maintainer)
-- [Acknowledgments](#acknowledgments)
 
 ---
 
