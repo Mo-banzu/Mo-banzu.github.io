@@ -33,7 +33,7 @@ This is the source code for my personal website - a developer and others.
 
 ### Creator / Maintainer
 
-- [`Mo-banzu`](https://github.com/Mo-banzu/)
+[`Mo-banzu`](https://github.com/Mo-banzu/)
 
 If you have any questions, comments, or concerns, feel free to contact me below.
 
