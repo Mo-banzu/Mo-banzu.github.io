@@ -50,4 +50,4 @@ If you have any questions, comments, or concerns, feel free to contact me below.
 
 ### License
 
-# Copyright &copy; 2020 Mo-banzu, All rights reserved.
+# &copy; 2020 Mo-banzu, All rights reserved.
