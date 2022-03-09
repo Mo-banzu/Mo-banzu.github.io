@@ -6,7 +6,7 @@ This is the source code for my personal website - a developer and others.
 
 - [Color Scheme](#color-scheme)
 - [Built With](#built-with)
-- [Creator/Maintainer](#creator-maintainer)
+- [Creator/Maintainer](#creatormaintainer)
 
 ---
 
