@@ -25,11 +25,11 @@ This is the source code for my personal website - a developer and others.
 - 💜 [Flaticon](https://www.flaticon.com/) and [FontAwesome](https://fontawesome.com/v5.15/icons?d=gallery&p=1) for icons
 - 💙 [Photoshop](https://www.adobe.com/) for design tools
 
+---
+
 ### Creator/Maintainer
 
-[`Mo-banzu`](https://github.com/Mo-banzu/)
-
----
+[`Mo-banzu`](https://line.me/ti/p/~mo-banzu)
 
 If you have any questions, comments, or concerns, feel free to contact me below.
 
@@ -39,4 +39,4 @@ If you have any questions, comments, or concerns, feel free to contact me below.
   </a>
 </p>
 
-# &copy; 2020 Mo-banzu, All rights reserved.
+## &copy; 2020 [Mo-banzu](https://github.com/Mo-banzu/), All rights reserved.
