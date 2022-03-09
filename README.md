@@ -6,7 +6,7 @@ This is the source code for my personal website - a developer and others.
 
 - [Color Scheme](#color-scheme)
 - [Built With](#built-with)
-- [Creator/Maintainer](#creatormaintainer)
+- [Contact Me](#contact-me)
 
 ---
 
@@ -25,18 +25,16 @@ This is the source code for my personal website - a developer and others.
 - 💜 [Flaticon](https://www.flaticon.com/) and [FontAwesome](https://fontawesome.com/v5.15/icons?d=gallery&p=1) for icons
 - 💙 [Photoshop](https://www.adobe.com/) for design tools
 
----
-
-### Creator/Maintainer
-
-[`Mo-banzu`](https://line.me/ti/p/~mo-banzu)
+### Contact Me
 
 If you have any questions, comments, or concerns, feel free to contact me below.
 
 <p align="left">
-  <a href="mailto:mbandu.ilik@gmail.com"> 
-    <img alt="Connect via Email" src="https://img.shields.io/badge/Gmail-c14438?style=flat&logo=Gmail&logoColor=white" />
-  </a>
+    <a href="https://line.me/ti/p/~mo-banzu">
+        <img alt="Chat me on LINE Messenger" src="https://img.shields.io/badge/LINE-00c300?style=flat&logo=LINE&logoColor=white" />
+    </a>
 </p>
+
+---
 
 ## &copy; 2020 [Mo-banzu](https://github.com/Mo-banzu/), All rights reserved.
