@@ -22,7 +22,7 @@ This is the source code for my personal website - a developer and others.
 - 💙 [HTML5](https://www.w3schools.com/html/)
 - 💜 [CSS3](https://www.w3schools.com/css/)
 - 💙 [JavaScript](https://www.w3schools.com/js/DEFAULT.asp)
-- 💜 [Flaticon](https://www.flaticon.com/) and [FontAwesome](https://fontawesome.com/v5.15/icons?d=gallery&p=1) for icons
+- 💜 [Flaticon](https://www.flaticon.com/) for icons
 - 💙 [Photoshop](https://www.adobe.com/) for design tools
 
 ### Contact Me
