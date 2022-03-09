@@ -13,11 +13,9 @@ This is the source code for my personal website - a developer and others.
 ### Color Scheme
 
 - White - all normal text color
-- Oxford Blue - page background color, text color on white background
-- Charm Pink - links, nav bar item hover, icon hover color
-- Shamrock Green - Charm Pink links hover color
-- Viridian Green - project skill text color
-- Slate Gray - mobile navbar background color
+- Eerie Black - page background color, text color on white background
+- Vivid Sky Blue - links, nav bar item hover, icon hover color
+- Silver Chalice - vivid sky blue links hover color
 
 ### Built With
 
@@ -25,9 +23,7 @@ This is the source code for my personal website - a developer and others.
 - 💜 [CSS3](https://www.w3schools.com/css/)
 - 💙 [JavaScript](https://www.w3schools.com/js/DEFAULT.asp)
 - 💜 [Flaticon](https://www.flaticon.com/) and [FontAwesome](https://fontawesome.com/v5.15/icons?d=gallery&p=1) for icons
-- 💙 [Google Domains](https://domains.google/) for cool domain
-- 💜 [Netlify](https://www.netlify.com/) for hosting
-- 💙 [Figma](https://www.figma.com/) for design and prototyping tools
+- 💙 [Photoshop](https://www.adobe.com/) for design tools
 
 ### Creator/Maintainer
 
