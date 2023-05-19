@@ -30,7 +30,7 @@ This is the source code for my personal website - a developer and others.
 If you have any questions, comments, or concerns, feel free to contact me below.
 
 <p align="left">
-    <a href="https://line.me/ti/p/~mo.banzu">
+    <a href="https://line.me/ti/p/~mo-banzu">
         <img alt="Chat me on LINE Messenger" src="https://img.shields.io/badge/LINE-00c300?style=flat&logo=LINE&logoColor=white" />
     </a>
 </p>
